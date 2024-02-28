@@ -1,8 +1,8 @@
-import react from 'react';
+import './Header.css';
 
 function Header(props){
   return(
-    <h1>Hello {props.name}</h1>
+    <div className={header}><h1>{props.name}</h1><span><span className={material-symbols-rounded}>account_circlr</span></span></div>
   );
 }
 

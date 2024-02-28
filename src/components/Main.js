@@ -1,5 +1,11 @@
+import ishushreyas from './ishushreyas.jpg';
+
 function Main(props){
-  return <h2>{props.greet} from Main</h2>;
+  return (
+    <div className={main}>
+      <img src={ishushreyas}>
+    </div>
+  );
 }
 
 export default Main;
