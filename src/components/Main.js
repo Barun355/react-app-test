@@ -7,6 +7,7 @@ function Main(props){
   return (
     <div className="main">
       <img src={ishushreyas} alt="ishushreyas" className="main-img"/>
+      <p>Ishu Shreyas</p>
       <Button value="View Profile" />
     </div>
   );
