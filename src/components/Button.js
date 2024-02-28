@@ -2,7 +2,8 @@ import './Button.css';
 
 function Button(props){
 
-function ripple(){
+function ripple(e){
+  const button = event.currentTarget;
   const circle = document.createElement('span');
   circle.classList.add('ripple');
 
