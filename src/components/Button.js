@@ -1,16 +1,6 @@
 import './Button.css';
 
 function Button(props){
-  const buttonStyle = {
-    position: relative,
-    overflow: hidden,
-    backgroundColor: #3f51b5,
-    color: white,
-    padding: 10px 20px,
-    border: none,
-    borderRadius: 5px,
-    cursor: pointer,
-  };
 
 function ripple(){
   const circle = document.createElement('span');
@@ -31,7 +21,7 @@ function ripple(){
 }
   
   return (
-  <button style={buttonStyle} onClick={ripple} className="button-class">{props.value}</button>
+  <button onClick={ripple} className="button-class">{props.value}</button>
   );
 }
 
