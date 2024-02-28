@@ -1,11 +1,9 @@
-.main img{
+.main-img{
   height: 200px;
   width: 200px;
   border-radius: 28px;
   border:solid 1px #fff;
-  backdrop-filter: saturate(180%) blur(20px); 
-  background: rgb(0,0,0,0.08); 
-  margin:15px; 
+  margin:15px calc(50vw - 100px); 
   box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
 }
 .main{
