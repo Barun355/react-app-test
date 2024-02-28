@@ -1,28 +1,29 @@
 import './Button.css';
 
-function Button(props){
+function Button(props) {
+  function ripple(event) {
+    const button = event.currentTarget;
+    const circle = document.createElement('span');
+    circle.classList.add('ripple');
 
-function ripple(e){
-  const button = event.currentTarget;
-  const circle = document.createElement('span');
-  circle.classList.add('ripple');
+    const diameter = Math.max(button.offsetWidth, button.offsetHeight);
+    const radius = diameter / 2;
 
-  const diameter = Math.max(button.offsetWidth, button.offsetHeight);
-  const radius = diameter / 2;
+    circle.style.width = circle.style.height = `${diameter}px`;
+    circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
+    circle.style.top = `${event.clientY - button.offsetTop - radius}px`;
 
-  circle.style.width = circle.style.height = `${diameter}px`;
-  circle.style.left = `${e.clientX - button.offsetLeft - radius}px`;
-  circle.style.top = `${e.clientY - button.offsetTop - radius}px`;
+    button.appendChild(circle);
 
-  button.appendChild(circle);
+    setTimeout(() => {
+      button.removeChild(circle);
+    }, 400);
+  }
 
-  setTimeout(() => {
-    button.removeChild(circle);
-  }, 400);
-}
-  
   return (
-  <button onClick={ripple(event)} className="button-class">{props.value}</button>
+    <button onClick={ripple} className="button-class">
+      {props.value}
+    </button>
   );
 }
 
