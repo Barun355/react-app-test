@@ -1,4 +1,5 @@
 import ishushreyas from './ishushreyas.jpg';
+import './Main.css';
 
 function Main(props){
   return (
