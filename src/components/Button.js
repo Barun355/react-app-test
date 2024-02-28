@@ -4,11 +4,11 @@ function Button(props){
   const buttonStyle = {
     position: relative,
     overflow: hidden,
-    background-color: #3f51b5,
+    backgroundColor: #3f51b5,
     color: white,
     padding: 10px 20px,
     border: none,
-    border-radius: 5px,
+    borderRadius: 5px,
     cursor: pointer,
   };
 
