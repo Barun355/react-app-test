@@ -1,4 +1,4 @@
-import Button from './components/Button';
+import Button from './Button';
 
 import ishushreyas from './ishushreyas.jpg';
 import './Main.css';
