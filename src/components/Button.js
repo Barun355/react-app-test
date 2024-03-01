@@ -22,7 +22,7 @@ function Button(props) {
   }
 
   return (
-    <button onClick="ripple(event);" className="button-class">
+    <button className="button-class" onClick="ripple(event);">
       {props.value}
     </button>
   );
