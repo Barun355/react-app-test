@@ -1,13 +1,13 @@
 .footer{
-  width: calc(100vh -40px);
+  width: calc(100vw - 40px);
   margin: 0px;
   padding: 10px 20px;
   font-family: 'Poppins';
   border-top: solid 1px #fff;
-  background: rgb(0,0,0); 
-  color: #aaa;
-  box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
+  background: rgb(240,240,240); 
+  color: #444;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
