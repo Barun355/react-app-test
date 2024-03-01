@@ -1,5 +1,6 @@
 import Button from './Button';
 import TextView from './TextView';
+import Footer from './Footer';
 
 import ishushreyas from './ishushreyas.jpg';
 import './Main.css';
