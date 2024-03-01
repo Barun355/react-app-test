@@ -1,8 +1,8 @@
 import './Button.css';
 
-function Button(props) {
+const Button = ({children}) => {
 
-  function ripple(event) {
+  const ripple = (event) => {
     const button = event.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple');
@@ -19,11 +19,11 @@ function Button(props) {
     setTimeout(() => {
       button.removeChild(circle);
     }, 400);
-  }
+  };
 
   return (
     <button className="button-class" onClick={() => ripple(event)}>
-      {props.value}
+      {children}
     </button>
   );
 }

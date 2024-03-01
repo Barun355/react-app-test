@@ -8,7 +8,7 @@ function Main(props){
     <div className="main">
       <img src={ishushreyas} alt="ishushreyas" className="main-img"/>
       <p>Ishu Shreyas</p>
-      <Button value="View Profile" />
+      <Button>View Profile</Button>
     </div>
   );
 }
