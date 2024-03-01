@@ -1,4 +1,4 @@
-.header{
+.footer{
   width: calc(100vh -40px);
   margin: 0px;
   padding: 10px 20px;
@@ -9,5 +9,5 @@
   box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
