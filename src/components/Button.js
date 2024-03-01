@@ -2,8 +2,8 @@ import './Button.css';
 
 const Button = ({children}) => {
 
-  const ripple = (event) => {
-    const button = event.currentTarget;
+  const ripple = (clickEvent) => {
+    const button = clickEvent.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple');
 
@@ -11,8 +11,8 @@ const Button = ({children}) => {
     const radius = diameter / 2;
 
     circle.style.width = circle.style.height = `${diameter}px`;
-    circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
-    circle.style.top = `${event.clientY - button.offsetTop - radius}px`;
+    circle.style.left = `${clickEvent.clientX - button.offsetLeft - radius}px`;
+    circle.style.top = `${clickEvent.clientY - button.offsetTop - radius}px`;
 
     button.appendChild(circle);
 
@@ -22,7 +22,7 @@ const Button = ({children}) => {
   };
 
   return (
-    <button className="button-class" onClick={() => ripple(event)}>
+    <button className="button-class" onClick={() => ripple(clickEvent)}>
       {children}
     </button>
   );
