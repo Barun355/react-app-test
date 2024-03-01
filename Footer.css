@@ -1,0 +1,12 @@
+.header{
+  width: calc(100vh -40px);
+  margin: 0px;
+  padding: 10px 20px;
+  font-family: 'Poppins';
+  border-top: solid 1px #fff;
+  background: rgb(0,0,0,0.08); 
+  box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
