@@ -1,0 +1,21 @@
+.header{
+  width: calc(100vw - 40px);
+  position: fixed;
+  top: 0;
+  margin: 0px;
+  padding: 10px 20px;
+  font-family: 'Righteous';
+  font-weight: 300;
+  border-bottom:solid 1px #fff;
+  backdrop-filter: saturate(180%) blur(20px); 
+  background: rgb(0,0,0,0.08); 
+  box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h2 {
+  margin: 10px 20px;
+  padding: 0;
+}
