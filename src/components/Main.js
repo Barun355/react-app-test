@@ -10,6 +10,7 @@ function Main(props){
       <img src={ishushreyas} alt="ishushreyas" className="main-img"/>
       <TextView>Ishu Shreyas</TextView>
       <Button>View Profile</Button>
+      <Footer />
     </div>
   );
 }

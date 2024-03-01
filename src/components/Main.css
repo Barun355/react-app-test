@@ -9,4 +9,5 @@
 .main{
   padding: 60px 20px;
   min-height: 90vh;
+  width: calc(100vw - 40px);
 }
