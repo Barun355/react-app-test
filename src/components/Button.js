@@ -1,6 +1,7 @@
 import './Button.css';
 
 function Button(props) {
+
   function ripple(event) {
     const button = event.currentTarget;
     const circle = document.createElement('span');
@@ -21,7 +22,7 @@ function Button(props) {
   }
 
   return (
-    <button onClick={ripple} className="button-class">
+    <button onClick="ripple(event);" className="button-class">
       {props.value}
     </button>
   );
