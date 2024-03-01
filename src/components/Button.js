@@ -2,7 +2,7 @@ import './Button.css';
 
 const Button = ({children}) => {
 
-  const ripple = (clickEvent) => {
+  const ripple = (event) => {
     const button = clickEvent.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple');
@@ -22,7 +22,7 @@ const Button = ({children}) => {
   };
 
   return (
-    <button className="button-class" onClick={() => ripple(clickEvent)}>
+    <button className="button-class" onClick={ripple}>
       {children}
     </button>
   );
