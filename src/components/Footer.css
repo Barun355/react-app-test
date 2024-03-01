@@ -4,7 +4,8 @@
   padding: 10px 20px;
   font-family: 'Poppins';
   border-top: solid 1px #fff;
-  background: rgb(0,0,0,0.08); 
+  background: rgb(0,0,0); 
+  color: #aaa;
   box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
   display: flex;
   align-items: center;
