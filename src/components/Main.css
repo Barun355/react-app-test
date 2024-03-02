@@ -3,11 +3,11 @@
   width: 200px;
   border-radius: 50%;
   border:solid 1px #fff;
-  margin:15px calc(50vw - 100px); 
+  margin:15px calc(50vw - 140px); 
   box-shadow: 5px 5px 25px rgb(0,0,0,0.2);
 }
 .main{
-  padding: 60px 20px;
+  padding: 90px 20px;
   min-height: 90vh;
   width: calc(100vw - 40px);
 }
