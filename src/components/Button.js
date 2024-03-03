@@ -38,7 +38,7 @@ const Button = ({children}) => {
   };
 
   return (
-    <button className="button-class" onTouchStart={ripple}>
+    <button className="button-class" onClick={ripple}>
       {children}
     </button>
   );
