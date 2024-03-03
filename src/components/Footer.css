@@ -2,12 +2,16 @@
   width: calc(100vw - 40px);
   margin: 0px;
   padding: 10px 20px;
-  font-family: 'Poppins';
   border-top: solid 1px #fff;
   background: rgb(250,250,250); 
   color: #666;
+}
+.footer, .bottom{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.footer h1 {
+  font-family: 'Righteous';
 }
