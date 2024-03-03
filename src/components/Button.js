@@ -1,7 +1,7 @@
 import './Button.css';
 import React, { useState, useEffect } from 'react';
 
-const Button = (props, {children}) => {
+const Button = ({clickAction, children}) => {
   const [scrollValue, setScrollValue] = useState(0);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const Button = (props, {children}) => {
   }, []);
 
   const ripple = (event) => {
-    const clickAction = props.clickAction || console.log("Button clicked");
+    const buttonClickAction = clickAction || console.log("Button clicked");
     const button = event.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple');
@@ -35,7 +35,7 @@ const Button = (props, {children}) => {
 
     setTimeout(() => {
       button.removeChild(circle);
-      clickAction();
+      buttonClickAction();
     }, 400);
   };
 
