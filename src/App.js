@@ -1,11 +1,11 @@
-import Header from './components/Header';
+import Footer from './components/Footer';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
 function App(){
   return(
-    <div>
-      <Header name="Shreyas" />
+    <div className="App">
+      <Header name="" />
       <Main />
       <Footer />
     </div>
