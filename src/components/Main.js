@@ -2,15 +2,13 @@ import Button from './Button';
 import TextView from './TextView';
 import Footer from './Footer';
 
-import ishushreyas from './ishushreyas.jpg';
 import './Main.css';
 
 function Main(props){
   return (
     <div className="main">
-      <img src={ishushreyas} alt="ishushreyas" className="main-img"/>
-      <TextView>Ishu Shreyas</TextView>
-      <Button>View Profile</Button>
+      <TextView>Hello, I'm Ishu Shreyas(He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
+      <TextView>ありがとうございました</TextView>
     </div>
   );
 }

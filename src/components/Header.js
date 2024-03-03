@@ -1,8 +1,13 @@
 import './Header.css';
+import Button from './Button';
 
 function Header(props){
+  const handleClick = () => {
+    window.open("mailto:ishushreyas@gmail.com");
+  };
+  
   return(
-    <div className="header"><p>{props.name}</p><span><span className="material-symbols-rounded">account_circle</span></span></div>
+    <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick}>Get in touch</Button></span></div>
   );
 }
 
