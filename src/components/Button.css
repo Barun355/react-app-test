@@ -11,10 +11,10 @@
 .ripple {
   position: absolute;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.55);
   transform: scale(0);
   filter: blur(12px);
-  animation: ripple 0.5s ease-out;
+  animation: ripple 0.7s ease-out;
 }
 
 @keyframes ripple {
