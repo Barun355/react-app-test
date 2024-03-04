@@ -8,9 +8,9 @@ function Footer(props){
   return(
     <div className="footer">
       <div className="work-with-us">
-        <TextView>Work with us</TextView><br />
+        <TextView>Work with us</TextView>
         <EditText />
-        <Button>Submit</Button>
+        <Button>Submit</Button><br />
       </div>
       <div className="bottom">
         <h1>ishushreyas</h1>
