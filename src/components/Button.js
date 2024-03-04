@@ -1,14 +1,19 @@
 import './Button.css';
 import React, { useState, useEffect } from 'react';
 
-const Button = ({clickAction, children}) => {
-  const [scrollValue, setScrollValue] = useState(0);
+const Button = ({positionFixed, clickAction, children}) => {
+  const [scrollXValue, setScrollXValue] = useState(0);
+  const [scrollYValue, setScrollYValue] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollValue = window.scrollY || document.documentElement.scrollTop;
+      const scrollYValue = window.scrollY || document.documentElement.scrollTop;
 
-      setScrollValue(scrollValue);
+      setScrollYValue(scrollYValue);
+      const scrollXValue = window.scrollX || document.documentElement.scrollLeft;
+
+      setScrollXValue(scrollXValue);
+      
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -28,8 +33,13 @@ const Button = ({clickAction, children}) => {
     const radius = diameter / 2;
 
     circle.style.width = circle.style.height = `${diameter}px`;
-    circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
-    circle.style.top = `${scrollValue + event.clientY - button.offsetTop - radius}px`;
+    if(positionFixed){
+      circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
+      circle.style.top = `${event.clientY - button.offsetTop - radius}px`;
+    } else {
+      circle.style.left = `${scrollXValue + event.clientX - button.offsetLeft - radius}px`;
+      circle.style.top = `${scrollYValue + event.clientY - button.offsetTop - radius}px`;
+    }
 
     button.appendChild(circle);
 

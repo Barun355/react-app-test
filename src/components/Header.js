@@ -7,7 +7,7 @@ function Header(props){
   };
   
   return(
-    <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick}>Get in touch</Button></span></div>
+    <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div>
   );
 }
 
