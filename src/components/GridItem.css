@@ -1,16 +1,6 @@
 .grid-item {
-  max-width: 270px;
-  margin: 12px;
   padding: 10px 20px;
   border-radius: 18px;
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.02); 
-}
-
-.grid-item:nth-child(odd):nth-child(2n) {
-  aspect-ratio: 4/3;
-}
-
-.grid-item:nth-child(even):nth-child(2n+1) {
-  aspect-ratio: 1/1;
 }

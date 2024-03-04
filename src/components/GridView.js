@@ -1,9 +1,12 @@
 import './Grid.css';
 
-function GridView({children}){
+function GridView({name, children}){
   return (
-    <div className="container">
-      {children}
+    <div>
+      <h2 className="grid-name">{name}</h2>
+      <div className="container">
+        {children}
+      </div>
     </div>
   );
 }
