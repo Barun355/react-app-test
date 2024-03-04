@@ -1,8 +1,8 @@
 import './GridItem.css';
 
-function GridItem({children}){
+function GridItem({elevated, children}){
   return (
-    <div className="grid-item">
+    <div className=`grid-item ${ elevated ? "elevated" : ""}`>
       {children}
     </div>
   );

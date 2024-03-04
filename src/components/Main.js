@@ -18,30 +18,32 @@ import './Main.css';
 function Main(props){
   return (
     <div className="main">
-      <Lottie
-        animationData={programmer}
-        loop={true}
-        autoplay={true}
-      />
       <GridView>
+        <GridItem>
+          <Lottie
+            animationData={programmer}
+            loop={true}
+            autoplay={true}
+          />
+        </GridItem>
         <GridItem>
           <TextView>Hello, I'm Ishu Shreyas(He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
         </GridItem>
       </GridView>
       <GridView name="Projects">
-        <GridItem>
+        <GridItem elevated>
           <TextView>Chat bot</TextView>
           <Link hRef="https://ishushreyas.pythonanywhere.com/" />
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <TextView>Quick Cloud Space</TextView>
           <Link hRef="https://quickcloudspace.web.app/" />
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <TextView>TalkTale</TextView>
           <Link hRef="https://talktale.web.app/" />
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <TextView>Code Editor</TextView>
           <video className="video" controls>
             <source src={video} />
@@ -49,19 +51,19 @@ function Main(props){
         </GridItem>
       </GridView>
       <GridView name="Interested in">
-        <GridItem>
+        <GridItem elevated>
           <img className="interestedImg" src={cpp} />
           <TextView>C++</TextView>
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <img className="interestedImg" src={androidPng} />
           <TextView>Android</TextView>
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <img className="interestedImg" src={reactjs} />
           <TextView>React Js</TextView>
         </GridItem>
-        <GridItem>
+        <GridItem elevated>
           <Lottie
             animationData={hiragana}
             loop={true}
