@@ -1,6 +1,6 @@
 function Icon({typeName, children}){
   return (
-    <span className="material-symbols- {typeName}">{children}</span>
+    <span className="material-symbols-${typeName}">{children}</span>
   );
 }
 
