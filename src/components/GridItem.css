@@ -4,3 +4,8 @@
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.02); 
 }
+.grid-item * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
