@@ -17,7 +17,6 @@ import './Main.css';
 function Main(props){
   return (
     <div className="main">
-      <lottie-player src={programmer} background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop controls autoplay></lottie-player>
       <GridView>
         <GridItem>
           <TextView>Hello, I'm Ishu Shreyas(He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
@@ -57,8 +56,7 @@ function Main(props){
           <TextView>React Js</TextView>
         </GridItem>
         <GridItem>
-          <lottie-player src={hiragana} background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop controls autoplay></lottie-player>
-          <TextView>Japanese</TextView>
+           <TextView>Japanese</TextView>
         </GridItem>
       </GridView>
     </div>
