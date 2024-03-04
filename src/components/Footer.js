@@ -10,12 +10,14 @@ function Footer(props){
       <div className="work-with-us">
         <TextView>Work with us</TextView>
         <EditText />
-        <Button>Submit</Button><br />
+        <Button>
+          <Icon typeName="rounded">send</Icon>
+        </Button>
       </div>
       <div className="bottom">
         <h1>ishushreyas</h1>
         <TextView>ありがとうございました | 2024</TextView>
-        <span className="material-symbols-rounded">feedback</span>
+        <Icon typeName="rounded">feedback</Icon>
       </div>
     </div>
   );
