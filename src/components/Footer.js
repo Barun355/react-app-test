@@ -3,6 +3,7 @@ import './Footer.css';
 import Button from './Button';
 import TextView from './TextView';
 import EditText from './EditText';
+import Icon from './Icon';
 
 function Footer(props){
   return(
