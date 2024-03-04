@@ -1,8 +1,8 @@
 import './EditText.css';
 
-function EditText(props){
+function EditText({placeholderText}){
   return (
-    <input type="text" className="input-class" />
+    <input placeholder={ placeholderText ? placeholderText : "" } type="text" className="input-class" />
   );
 }
 

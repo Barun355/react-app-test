@@ -10,7 +10,7 @@ function Footer(props){
     <div className="footer">
       <div className="work-with-us">
         <TextView>Work with us</TextView>
-        <EditText />
+        <EditText placeholderText="someone@gmail.com" />
         <Button>
           <Icon typeName="rounded">send</Icon>
         </Button>
