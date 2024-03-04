@@ -45,9 +45,7 @@ function Main(props){
         </GridItem>
         <GridItem elevated>
           <TextView>Code Editor</TextView>
-          <video className="video" controls>
-            <source src={video} />
-          </video>
+          <Link hRef={video}>Android App</Link>
         </GridItem>
       </GridView>
       <GridView name="Interested in">
