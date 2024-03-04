@@ -1,5 +1,9 @@
 import './Footer.css';
 
+import Button from './Button';
+import TextView from './TextView';
+import EditText from './EditText';
+
 function Footer(props){
   return(
     <div className="footer">
