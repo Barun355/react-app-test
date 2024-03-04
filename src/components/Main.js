@@ -3,6 +3,7 @@ import TextView from './TextView';
 import Footer from './Footer';
 import GridView from './GridView';
 import GridItem from './GridItem';
+import video from './codeeditor.mp4';
 
 import './Main.css';
 
@@ -26,7 +27,7 @@ function Main(props){
         <GridItem>
           <TextView>Code Editor</TextView>
           <video>
-            <source src="/">
+            <source src={video} />
           </video>
         </GridItem>
       </GridView>
