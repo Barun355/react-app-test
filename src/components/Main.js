@@ -31,7 +31,7 @@ function Main(props){
         </GridItem>
         <GridItem>
           <TextView>Code Editor</TextView>
-          <video height="440" controls>
+          <video className="video" controls>
             <source src={video} />
           </video>
         </GridItem>
