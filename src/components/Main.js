@@ -17,25 +17,17 @@ function Main(props){
       <GridView>
         <GridItem>
           <TextView>Chat bot</TextView>
-        </GridItem>
-        <GridItem>
           <a href="https://ishushreyas.pythonanywhere.com/">https://ishushreyas.pythonanywhere.com/</a>
         </GridItem>
-      </GridView>
-      <GridView>
         <GridItem>
           <TextView>TalkTale</TextView>
-        </GridItem>
-        <GridItem>
           <a href="https://talktale.web.app/">https://talktale.web.app/</a>
         </GridItem>
-      </GridView>
-      <GridView>
         <GridItem>
-          Code Editor 
-        </GridItem>
-        <GridItem>
-          <video />
+          <TextView>Code Editor</TextView>
+          <video>
+            <source src="/">
+          </video>
         </GridItem>
       </GridView>
     </div>
