@@ -7,7 +7,7 @@ import Link from './Link';
 
 import cpp from './c-plus-plus.png';
 import androidPng from './android.png';
-import reactjs from './reactjs.png';
+import reactjs from './react.png';
 import hiragana from './hiragana.json';
 import programmer from './programming.json';
 import video from './codeeditor.mp4';
