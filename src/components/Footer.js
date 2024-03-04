@@ -8,6 +8,7 @@ function Footer(props){
   return(
     <div className="footer">
       <div className="work-with-us">
+        <TextView>Work with us</TextView><br />
         <EditText />
         <Button>Submit</Button>
       </div>
