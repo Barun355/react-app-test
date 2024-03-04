@@ -3,8 +3,9 @@ import TextView from './TextView';
 import Footer from './Footer';
 import GridView from './GridView';
 import GridItem from './GridItem';
-import video from './codeeditor.mp4';
+import Link from './Link';
 
+import video from './codeeditor.mp4';
 import './Main.css';
 
 function Main(props){
@@ -18,15 +19,15 @@ function Main(props){
       <GridView name="Projects">
         <GridItem>
           <TextView>Chat bot</TextView>
-          <a href="https://ishushreyas.pythonanywhere.com/">https://ishushreyas.pythonanywhere.com/</a>
+          <Link hRef="https://ishushreyas.pythonanywhere.com/" />
         </GridItem>
         <GridItem>
           <TextView>Quick Cloud Space</TextView>
-          <a href="https://quickcloudspace.web.app/">https://quickcloudspace.web.app/</a>
+          <Link hRef="https://quickcloudspace.web.app/" />
         </GridItem>
         <GridItem>
           <TextView>TalkTale</TextView>
-          <a href="https://talktale.web.app/">https://talktale.web.app/</a>
+          <Link hRef="https://talktale.web.app/" />
         </GridItem>
         <GridItem>
           <TextView>Code Editor</TextView>

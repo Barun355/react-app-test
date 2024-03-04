@@ -1,0 +1,7 @@
+.link {
+  font-weight: 200;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
