@@ -27,7 +27,7 @@ function Main(props){
         <GridItem>
           <TextView>Code Editor</TextView>
           <video>
-            <source src={video} />
+            <source controls src={video} />
           </video>
         </GridItem>
       </GridView>
