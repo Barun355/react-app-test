@@ -21,6 +21,10 @@ function Main(props){
           <a href="https://ishushreyas.pythonanywhere.com/">https://ishushreyas.pythonanywhere.com/</a>
         </GridItem>
         <GridItem>
+          <TextView>Quick Cloud Space</TextView>
+          <a href="https://quickcloudspace.web.app/">https://quickcloudspace.web.app/</a>
+        </GridItem>
+        <GridItem>
           <TextView>TalkTale</TextView>
           <a href="https://talktale.web.app/">https://talktale.web.app/</a>
         </GridItem>
