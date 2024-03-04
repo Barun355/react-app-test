@@ -8,8 +8,8 @@ import Icon from './Icon';
 function Footer(props){
   return(
     <div className="footer">
+    <TextView>Work with us</TextView>
       <div className="work-with-us">
-        <TextView>Work with us</TextView>
         <EditText placeholderText="someone@gmail.com" />
         <Button>
           <Icon typeName="rounded">send</Icon>
