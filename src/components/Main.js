@@ -5,7 +5,7 @@ import GridView from './GridView';
 import GridItem from './GridItem';
 import Link from './Link';
 
-import c-plus-plus from './c-plus-plus.png';
+import cpp from './c-plus-plus.png';
 import androidPng from './android.png';
 import reactjs from './reactjs.png';
 import hiragana from './hiragana.json';
@@ -45,7 +45,7 @@ function Main(props){
       </GridView>
       <GridView name="Interested in">
         <GridItem>
-          <img className="interested-img" src{c-plus-plus} />
+          <img className="interested-img" src{cpp} />
           <TextView>C++</TextView>
         </GridItem>
         <GridItem>
