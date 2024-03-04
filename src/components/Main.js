@@ -45,15 +45,15 @@ function Main(props){
       </GridView>
       <GridView name="Interested in">
         <GridItem>
-          <img className="interested-img" src{cpp} />
+          <img className="interestedImg" src{cpp} />
           <TextView>C++</TextView>
         </GridItem>
         <GridItem>
-          <img className="interested-img" src{androidPng} />
+          <img className="interestedImg" src{androidPng} />
           <TextView>Android</TextView>
         </GridItem>
         <GridItem>
-          <img className="interested-img" src{reactjs} />
+          <img className="interestedImg" src{reactjs} />
           <TextView>React Js</TextView>
         </GridItem>
         <GridItem>
