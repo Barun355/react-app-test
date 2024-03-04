@@ -28,6 +28,7 @@
   100% {
     background-position: 200% 200%; /* Adjust the values based on the background-size */
   }
+}
 .work-with-us{
   display: flex;
   align-items: center;
