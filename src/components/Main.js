@@ -5,12 +5,19 @@ import GridView from './GridView';
 import GridItem from './GridItem';
 import Link from './Link';
 
+import c-plus-plus from './c-plus-plus.png';
+import androidPng from './android.png';
+import reactjs from './reactjs.png';
+import hiragana from './hiragana.json';
+import programmer from './programming.json';
 import video from './codeeditor.mp4';
+
 import './Main.css';
 
 function Main(props){
   return (
     <div className="main">
+      <lottie-player src={programmer} background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop controls autoplay></lottie-player>
       <GridView>
         <GridItem>
           <TextView>Hello, I'm Ishu Shreyas(He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
@@ -34,6 +41,24 @@ function Main(props){
           <video className="video" controls>
             <source src={video} />
           </video>
+        </GridItem>
+      </GridView>
+      <GridView name="Interested in">
+        <GridItem>
+          <img className="interested-img" src{c-plus-plus} />
+          <TextView>C++</TextView>
+        </GridItem>
+        <GridItem>
+          <img className="interested-img" src{androidPng} />
+          <TextView>Android</TextView>
+        </GridItem>
+        <GridItem>
+          <img className="interested-img" src{reactjs} />
+          <TextView>React Js</TextView>
+        </GridItem>
+        <GridItem>
+          <lottie-player src={hiragana} background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop controls autoplay></lottie-player>
+          <TextView>Japanese</TextView>
         </GridItem>
       </GridView>
     </div>
