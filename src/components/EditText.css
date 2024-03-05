@@ -15,5 +15,6 @@
 @media (prefers-color-scheme: dark) {
   .input-class {
     border: 2px solid #666;
+    color: #fff;
   }
 }
