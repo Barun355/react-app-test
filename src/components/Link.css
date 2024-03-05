@@ -1,7 +1,12 @@
 .link {
-  font-weight: 200;
-  display: block;
+  display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding: 5px;
+  border-radius: 8px;
+  backdrop-filter: saturate(180%) blur(20px); 
+  background: rgb(0,0,0,0.08);
+  color: #aaa;
+  text-declaration: none;
 }
