@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   .main{
-    background: #333;
+    background: #111;
     color: #fff;
   }
   .video {

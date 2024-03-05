@@ -2,7 +2,7 @@
   width: calc(100vw - 40px);
   margin: 0px;
   padding: 10px 20px;
-  border-top: solid 1px #000;
+  border-top: solid 1px #fff;
   background: rgb(250,250,250); 
   color: #666;
 }
@@ -38,7 +38,8 @@
 
 @media (prefers-color-scheme: dark) {
   .footer{
-    background: #111;
+    background: #333;
     color: #fff;
+    border-top: solid 1px #000;
   }
 }
