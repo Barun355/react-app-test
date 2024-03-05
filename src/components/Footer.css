@@ -38,7 +38,7 @@
 
 @media (prefers-color-scheme: dark) {
   .footer{
-    background: #333;
+    background: #111;
     color: #fff;
   }
 }
