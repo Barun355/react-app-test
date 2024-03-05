@@ -8,5 +8,5 @@
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.08);
   color: #aaa;
-  text-declaration: none;
+  text-decoration: none;
 }

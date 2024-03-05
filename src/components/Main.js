@@ -32,19 +32,19 @@ function Main(props){
       </GridView>
       <GridView name="Projects">
         <GridItem elevated>
-          <TextView>Chat bot</TextView>
+          <TextView><strong>Chat bot</strong></TextView>
           <Link hRef="https://ishushreyas.pythonanywhere.com/" />
         </GridItem>
         <GridItem elevated>
-          <TextView>Quick Cloud Space</TextView>
+          <TextView><strong>Quick Cloud Space</strong></TextView>
           <Link hRef="https://quickcloudspace.web.app/" />
         </GridItem>
         <GridItem elevated>
-          <TextView>TalkTale</TextView>
+          <TextView><strong>TalkTale</strong></TextView>
           <Link hRef="https://talktale.web.app/" />
         </GridItem>
         <GridItem elevated>
-          <TextView>Code Editor</TextView>
+          <TextView><strong>Code Editor</strong></TextView>
           <Link hRef={video}>Android App</Link>
         </GridItem>
       </GridView>
