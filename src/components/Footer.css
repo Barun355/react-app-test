@@ -35,3 +35,10 @@
   justify-content: space-between;
   border-bottom: solid 1px #aaa;
 }
+
+@media (prefers-color-scheme: dark) {
+  .footer{
+    background: #333;
+    color: #fff;
+  }
+}

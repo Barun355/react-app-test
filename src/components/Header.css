@@ -19,3 +19,9 @@
   padding: 0;
   font-family: 'Righteous';
 }
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    color: #fff;
+  }
+}

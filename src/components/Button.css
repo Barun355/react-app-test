@@ -27,3 +27,13 @@
     opacity: 0;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .button-class{
+    background: #fff;
+    color: #333;
+  }
+  .ripple {
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+}
