@@ -10,3 +10,9 @@
   color: #aaa;
   text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+  .link{
+    background: rgb(250,250,250,0.08);
+  }
+}
