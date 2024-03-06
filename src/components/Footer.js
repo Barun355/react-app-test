@@ -18,7 +18,7 @@ function Footer(props){
       <div className="bottom">
         <h1>ishushreyas</h1>
         <TextView>ありがとうございました | 2024</TextView>
-        <Icon typeName="rounded">feedback</Icon>
+        <Link hRef="https://chatwithshreyas.web.app/"><Icon typeName="rounded">feedback</Icon></Link>
       </div>
     </div>
   );

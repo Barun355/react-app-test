@@ -42,8 +42,12 @@ function Main(props){
           <ProjectCard title="TalkTale" hRef="https://talktale.web.app/">It's a web based chat app written with html, css, js and uses <Link hRef="https://console.firebase.google.com/">firebase</Link> for authentication, database, storage, etc.</ProjectCard>
         </GridItem>
         <GridItem elevated>
+          <ProjectCard title="Chat with shreyas" hRef="https://chatwithshreyas.web.app/">It's a webpage written with html, css, js and uses <Link hRef="https://console.firebase.google.com/">firebase</Link> for authentication, database, storage, etc.</ProjectCard>
+        </GridItem>
+        <GridItem elevated>
           <TextView><strong>Code Editor</strong></TextView>
-          <Link hRef={video}>Android App</Link>
+          <TextView>It's an <Link hRef="https://developers.android.google.com/">Android application</Link> written in java.</TextView>
+          <Link hRef={video}>Preview</Link>
         </GridItem>
       </GridView>
       <GridView name="Interested in">
