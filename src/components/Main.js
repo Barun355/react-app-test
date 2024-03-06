@@ -46,7 +46,7 @@ function Main(props){
         </GridItem>
         <GridItem elevated>
           <TextView><strong>Code Editor</strong></TextView>
-          <TextView>It's an <Link hRef="https://developers.android.google.com/">Android application</Link> written in java.</TextView>
+          <TextView>It's an <Link hRef="https://developers.androidcom/">Android</Link> application written in java.</TextView>
           <Link hRef={video}>Preview</Link>
         </GridItem>
       </GridView>
