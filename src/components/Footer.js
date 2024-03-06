@@ -4,6 +4,7 @@ import Button from './Button';
 import TextView from './TextView';
 import EditText from './EditText';
 import Icon from './Icon';
+import Link from './Link';
 
 function Footer(props){
   return(
