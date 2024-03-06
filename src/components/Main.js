@@ -5,6 +5,7 @@ import GridView from './GridView';
 import GridItem from './GridItem';
 import Link from './Link';
 import Lottie from 'lottie-react';
+import ProjectCard from './ProjectCard';
 
 import cpp from './c-plus-plus.png';
 import androidPng from './android.png';
