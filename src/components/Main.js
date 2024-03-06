@@ -32,8 +32,7 @@ function Main(props){
       </GridView>
       <GridView name="Projects">
         <GridItem elevated>
-          <TextView><strong>Chat bot</strong></TextView>
-          <Link hRef="https://ishushreyas.pythonanywhere.com/" />
+          <ProjectCard title="Chat bot" hRef="https://ishushreyas.pythonanywhere.com/">Chat bot assistant built using Gemini 1.0</ProjectCard>
         </GridItem>
         <GridItem elevated>
           <TextView><strong>Quick Cloud Space</strong></TextView>
