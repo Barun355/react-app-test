@@ -11,7 +11,7 @@ function ProjectCard({title, hRef, children}){
       <Link hRef={hRef} />
       <TextView>{children}</TextView>
       <Link hRef={hRef}>
-        <Icon className="icon">public</Icon>
+        <Icon className="icon">arrow_forward_ios</Icon>
       </Link>
     </div>
   );

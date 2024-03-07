@@ -2,5 +2,6 @@
 
 }
 .icon{
-  float: right;
+  position: absolute;
+  right: 18px;
 }
