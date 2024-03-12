@@ -28,7 +28,8 @@ function Main(props){
           />
         </GridItem>
         <GridItem>
-          <TextView>Hello, I'm Ishu Shreyas(He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
+          <h1 style="text-align: center; font-family: 'Righteous';">Hello World</h1>
+          <TextView>I'm Ishu Shreyas (He/him), a passionate learner on a journey to make life simple with softwares. Currently delving into the intricacies of C++ and React JS, I find joy in crafting digital solutions. On a parallel track, I learn Japanese, unlocking a world of culture and communication.</TextView>
         </GridItem>
       </GridView>
       <GridView name="Projects">
