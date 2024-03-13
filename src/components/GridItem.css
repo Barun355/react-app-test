@@ -15,10 +15,10 @@
   background-color: rgba(0, 0, 0, 0.35);
   transform: scale(0);
   filter: blur(12px);
-  animation: ripple 0.7s ease-out;
+  animation: ripple-card 0.7s ease-out;
 }
 
-@keyframes ripple {
+@keyframes ripple-card {
   to {
     transform: scale(3);
     opacity: 0;
