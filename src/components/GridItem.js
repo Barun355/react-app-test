@@ -1,5 +1,7 @@
 import './GridItem.css';
 
+import React, { useState, useEffect } from 'react';
+
 function GridItem({elevated, children}){
   const [scrollXValue, setScrollXValue] = useState(0);
   const [scrollYValue, setScrollYValue] = useState(0);
@@ -23,7 +25,6 @@ function GridItem({elevated, children}){
   }, []);
 
   const ripple = (event) => {
-    const buttonClickAction = clickAction || console.log("Button clicked");
     const button = event.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple');
@@ -39,7 +40,6 @@ function GridItem({elevated, children}){
 
     setTimeout(() => {
       button.removeChild(circle);
-      buttonClickAction();
     }, 400);
   };
   
