@@ -27,7 +27,7 @@ function GridItem({elevated, children}){
   const rippleCard = (event) => {
     const button = event.currentTarget;
     const circle = document.createElement('span');
-    circle.classList.add('ripple-class');
+    circle.classList.add('ripple-card');
 
     const diameter = Math.max(button.offsetWidth, button.offsetHeight);
     const radius = diameter / 2;
