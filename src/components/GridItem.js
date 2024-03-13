@@ -22,12 +22,12 @@ function GridItem({elevated, children}){
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); 
+  }, []);
 
   const ripple = (event) => {
     const button = event.currentTarget;
     const circle = document.createElement('span');
-    circle.classList.add('ripple');
+    circle.classList.add('ripple-class');
 
     const diameter = Math.max(button.offsetWidth, button.offsetHeight);
     const radius = diameter / 2;
