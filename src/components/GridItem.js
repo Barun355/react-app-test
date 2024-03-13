@@ -22,7 +22,7 @@ function GridItem({elevated, children}){
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, []); 
 
   const ripple = (event) => {
     const button = event.currentTarget;
