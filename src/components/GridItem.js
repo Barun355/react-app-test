@@ -24,7 +24,7 @@ function GridItem({elevated, children}){
     };
   }, []);
 
-  const ripple = (event) => {
+  const rippleCard = (event) => {
     const button = event.currentTarget;
     const circle = document.createElement('span');
     circle.classList.add('ripple-class');
@@ -44,7 +44,7 @@ function GridItem({elevated, children}){
   };
   
   return (
-    <div className={`grid-item ${ elevated ? "elevated" : ""}`} onClick={ripple}>
+    <div className={`grid-item ${ elevated ? "elevated" : ""}`} onClick={rippleCard}>
       {children}
     </div>
   );
