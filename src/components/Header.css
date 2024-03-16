@@ -1,4 +1,4 @@
-.header{
+.header-open {
   width: calc(100vw - 40px);
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .header {
+  .header-open {
     color: #fff;
     border-bottom:solid 1px #666;
   }
