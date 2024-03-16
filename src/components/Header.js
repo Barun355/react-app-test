@@ -25,7 +25,7 @@ function Header(props){
   
   return(
     <>
-      (scrollYValue > 150) ? <div className="header-open"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div> : <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div>;
+      {(scrollYValue > 150) ? <div className="header-open"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div> : <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div>}
     </>
   );
 }
