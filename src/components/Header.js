@@ -23,11 +23,29 @@ function Header(props){
     window.open("mailto:ishushreyas@gmail.com");
   };
   
-  return(
-    <>
-      {(scrollYValue > 150) ? <div className="header-open"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div> : <div className="header"><p>{props.name}</p><span><Button clickAction={handleClick} positionFixed>Get in touch</Button></span></div>}
-    </>
-  );
+  return (
+  <>
+    {scrollYValue > 1 ? (
+      <div className="header-open">
+        <p>{props.name}</p>
+        <span>
+          <Button clickAction={handleClick} positionFixed>
+            Get in touch
+          </Button>
+        </span>
+      </div>
+    ) : (
+      <div className="header">
+        <p>{props.name}</p>
+        <span>
+          <Button clickAction={handleClick} positionFixed>
+            Get in touch
+          </Button>
+        </span>
+      </div>
+    )}
+  </>
+);
 }
 
 export default Header;
