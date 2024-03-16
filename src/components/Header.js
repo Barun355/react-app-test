@@ -26,7 +26,7 @@ function Header(props){
   return (
   <>
     {scrollYValue > 1 ? (
-      <div className="header-open">
+      <div className="header">
         <p>{props.name}</p>
         <span>
           <Button clickAction={handleClick} positionFixed>
@@ -35,7 +35,7 @@ function Header(props){
         </span>
       </div>
     ) : (
-      <div className="header">
+      <div className="header-open">
         <p>{props.name}</p>
         <span>
           <Button clickAction={handleClick} positionFixed>
