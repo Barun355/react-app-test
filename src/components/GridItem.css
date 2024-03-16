@@ -14,7 +14,7 @@
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.35);
   transform: scale(0);
-  filter: blur(12px);
+  filter: blur(24px);
   animation: ripple-card 0.7s ease-out;
 }
 
