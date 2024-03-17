@@ -13,21 +13,11 @@
 }
 .header h1 {
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
   font-family: 'Righteous';
   background: linear-gradient(45deg, #3333cc, #ff00cc);
   -webkit-background-clip: text;
   color: transparent;
-  animation: moveColors 3s ease infinite; /* Adjust timing and animation type as needed */
-}
-
-@keyframes moveColors {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 200% 200%; /* Adjust the values based on the background-size */
-  }
 }
 
 @media (prefers-color-scheme: dark) {
