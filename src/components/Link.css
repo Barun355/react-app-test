@@ -4,13 +4,15 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 5px;
-  position: relative;
-  top: 8px;
   border-radius: 8px;
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.08);
   color: #666;
   text-decoration: none;
+}
+.inline {
+  position: relative;
+  top: 8px;
 }
 
 @media (prefers-color-scheme: dark) {

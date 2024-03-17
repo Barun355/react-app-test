@@ -34,20 +34,20 @@ function Main(props){
       </GridView>
       <GridView name="Projects">
         <GridItem elevated>
-          <ProjectCard title="Chat bot" hRef="https://ishushreyas.pythonanywhere.com/">It's a Chat bot assistant built on Flask framework using html, css, javascript, <Link hRef="https://python.org/">Python</Link> and uses Gemini 1.0 api for response.</ProjectCard>
+          <ProjectCard title="Chat bot" hRef="https://ishushreyas.pythonanywhere.com/">It's a Chat bot assistant built on Flask framework using html, css, javascript, <Link hRef="https://python.org/" inline>Python</Link> and uses Gemini 1.0 api for response.</ProjectCard>
         </GridItem>
         <GridItem elevated>
-          <ProjectCard title="Quick Cloud Space" hRef="https://quickcloudspace.web.app/">It's a cloud storage written with html, css, js and uses <Link hRef="https://console.firebase.google.com/">firebase</Link> for authentication, database, storage, etc.</ProjectCard>
+          <ProjectCard title="Quick Cloud Space" hRef="https://quickcloudspace.web.app/">It's a cloud storage written with html, css, js and uses <Link hRef="https://console.firebase.google.com/" inline>firebase</Link> for authentication, database, storage, etc.</ProjectCard>
         </GridItem>
         <GridItem elevated>
-          <ProjectCard title="TalkTale" hRef="https://talktale.web.app/">It's a web based chat app written with html, css, js and uses <Link hRef="https://console.firebase.google.com/">firebase</Link> for authentication, database, storage, etc.</ProjectCard>
+          <ProjectCard title="TalkTale" hRef="https://talktale.web.app/">It's a web based chat app written with html, css, js and uses <Link hRef="https://console.firebase.google.com/" inline>firebase</Link> for authentication, database, storage, etc.</ProjectCard>
         </GridItem>
         <GridItem elevated>
-          <ProjectCard title="Chat with shreyas" hRef="https://chatwithshreyas.web.app/">It's a webpage written with html, css, js and uses <Link hRef="https://console.firebase.google.com/">firebase</Link> for authentication, database, storage, etc.</ProjectCard>
+          <ProjectCard title="Chat with shreyas" hRef="https://chatwithshreyas.web.app/">It's a webpage written with html, css, js and uses <Link hRef="https://console.firebase.google.com/" inline>firebase</Link> for authentication, database, storage, etc.</ProjectCard>
         </GridItem>
         <GridItem elevated>
           <TextView><strong>Code Editor</strong></TextView>
-          <TextView>It's an <Link hRef="https://developers.android.com/">Android</Link> application written in java.</TextView>
+          <TextView>It's an <Link hRef="https://developers.android.com/" inline>Android</Link> application written in java.</TextView>
           <Link hRef={video}>Preview</Link>
         </GridItem>
       </GridView>

@@ -1,8 +1,8 @@
 import './Link.css';
 
-function Link({hRef, children}){
+function Link({hRef, inline, children}){
   return (
-    <a href={hRef} className="link">{children ? children : hRef}</a>
+    <a href={hRef} className={`link ${ inline  ? "inline" : ""}`}>{children ? children : hRef}</a>
   );
 }
 
