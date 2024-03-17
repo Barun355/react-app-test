@@ -2,8 +2,9 @@ import './Header.css';
 import Button from './Button';
 import React, { useState, useEffect } from 'react';
 
-function Header(props){
+function Header({ forMobile, forDesktop }){
   const [scrollYValue, setScrollYValue] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,6 +18,17 @@ function Header(props){
       window.removeEventListener('scroll', handleScroll);
     };
     
+  }, []
+  
+  const handleResize = () => {
+      setIsMobile(window.innerWidth < 600); // Update state when screen size changes
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Remove event listener on component unmount
+    };
   }, []);
 
   const handleClick = () => {
@@ -25,7 +37,7 @@ function Header(props){
   
   return (
       <div className={`header ${ scrollYValue > 1  ? "scrolled" : ""}`}>
-        <p>{props.name}</p>
+        <h1>{isMobile ? forMobile : forDesktop}</h1>
         <span>
           <Button clickAction={handleClick} positionFixed>
             Get in touch
