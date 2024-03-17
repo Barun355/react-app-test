@@ -11,24 +11,19 @@ function Header({ forMobile, forDesktop }){
       const scrollYValue = window.scrollY || document.documentElement.scrollTop;
       setScrollYValue(scrollYValue);
     };
+    
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 600);
+    };
 
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize)
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
     };
     
-  }, []
-  
-  const handleResize = () => {
-      setIsMobile(window.innerWidth < 600); // Update state when screen size changes
-    };
-
-    window.addEventListener('resize', handleResize); // Add event listener for window resize
-
-    return () => {
-      window.removeEventListener('resize', handleResize); // Remove event listener on component unmount
-    };
   }, []);
 
   const handleClick = () => {
