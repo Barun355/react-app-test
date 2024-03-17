@@ -13,11 +13,21 @@
 }
 .header h1 {
   margin: 0;
-  padding: 10px 20px;
+  padding: 0;
   font-family: 'Righteous';
   background: linear-gradient(45deg, #3333cc, #ff00cc);
   -webkit-background-clip: text;
   color: transparent;
+  animation: moveColors 3s ease infinite; /* Adjust timing and animation type as needed */
+}
+
+@keyframes moveColors {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%; /* Adjust the values based on the background-size */
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +36,7 @@
   }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {*/
   .scrolled {
     border-bottom:solid 1px #ddd;
     backdrop-filter: saturate(180%) blur(20px); 
@@ -38,4 +48,5 @@
       border-bottom:solid 1px #666;
     }
   }
-}
+/*}
+*/

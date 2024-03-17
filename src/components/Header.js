@@ -2,7 +2,7 @@ import './Header.css';
 import Button from './Button';
 import React, { useState, useEffect } from 'react';
 
-function Header({ forMobile, forDesktop }){
+function Header({ forMobile, children }){
   const [scrollYValue, setScrollYValue] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
 
@@ -32,7 +32,7 @@ function Header({ forMobile, forDesktop }){
   
   return (
       <div className={`header ${ scrollYValue > 1  ? "scrolled" : ""}`}>
-        <h1>{isMobile ? forMobile : forDesktop}</h1>
+        <h1>{isMobile ? forMobile : children}</h1>
         <span>
           <Button clickAction={handleClick} positionFixed>
             Get in touch
