@@ -14,7 +14,7 @@
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.35);
   transform: scale(0);
-  filter: blur(24px);
+  filter: blur(48px);
   animation: ripple-card 0.7s ease-out;
 }
 
@@ -31,5 +31,11 @@
   }
   .ripple-card {
     background-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+@media (max-width: 768px) {
+  .ripple {
+    filter: blur(24px);
   }
 }
