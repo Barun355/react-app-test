@@ -27,7 +27,7 @@
   }
 }
 
-@keyframe fade-out {
+@keyframes fade-out {
   from {
     scale: .831; opacity: 0;
   }
