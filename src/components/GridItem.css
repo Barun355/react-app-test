@@ -5,7 +5,6 @@
   border-radius: 18px;
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.02); 
-  scale: .31; opacity: 0;
   animation: fade-out linear;
   animation-timeline: view();
 }
@@ -29,6 +28,9 @@
 }
 
 @keyframe fade-out {
+  from {
+    scale: .831; opacity: 0;
+  }
   to {
     scale: 1; opacity: 1;
   }
