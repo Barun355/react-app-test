@@ -5,6 +5,9 @@
   border-radius: 18px;
   backdrop-filter: saturate(180%) blur(20px); 
   background: rgb(0,0,0,0.02); 
+  scale: .31; opacity: 0;
+  animation: fade-out linear;
+  animation-timeline: view();
 }
 .elevated{
   box-shadow: 5px 5px 25px rgb(0,0,0,0.08);
@@ -22,6 +25,12 @@
   to {
     transform: scale(3);
     opacity: 0;
+  }
+}
+
+@keyframe fade-out {
+  to {
+    scale: 1; opacity: 1;
   }
 }
 
