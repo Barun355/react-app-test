@@ -1,4 +1,4 @@
-import './GridItem.css';
+import './style/GridItem.css';
 
 import React, { useState, useEffect } from 'react';
 
