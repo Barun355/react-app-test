@@ -1,3 +1,9 @@
+@font-face {
+ font-family: "resso";
+ src: local("resso"),
+  url("./font/resso.ttf") format("truetype");
+ font-weight: bold;
+}
 .header {
   width: calc(100vw - 40px);
   position: fixed;
@@ -14,7 +20,7 @@
 .header h1 {
   margin: 0;
   padding: 10px 0;
-  font-family: 'Righteous';
+  font-family: 'resso';
   background: linear-gradient(45deg, #3333cc, #ff00cc);
   -webkit-background-clip: text;
   color: transparent;
