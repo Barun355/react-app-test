@@ -1,4 +1,3 @@
-import './font/resso.ttf';
 import './style/Header.css';
 import Button from './Button';
 import React, { useState, useEffect } from 'react';
