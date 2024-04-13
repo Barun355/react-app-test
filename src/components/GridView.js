@@ -1,4 +1,4 @@
-import './Grid.css';
+import './style/Grid.css';
 
 function GridView({name, children}){
   return (
