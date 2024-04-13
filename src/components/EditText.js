@@ -1,4 +1,4 @@
-import './EditText.css';
+import './style/EditText.css';
 
 function EditText({placeholderText}){
   return (
