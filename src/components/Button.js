@@ -1,4 +1,4 @@
-import './Button.css';
+import './style/Button.css';
 import React, { useState, useEffect } from 'react';
 
 const Button = ({positionFixed, clickAction, children}) => {
