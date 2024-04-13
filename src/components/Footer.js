@@ -1,4 +1,4 @@
-import './Footer.css';
+import './style/Footer.css';
 
 import Button from './Button';
 import TextView from './TextView';
